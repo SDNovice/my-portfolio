@@ -1,0 +1,92 @@
+
+body {
+    font-weight: 100;
+}
+
+.head-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header { 
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: end;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;;
+    font-size: 250%;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: underline;
+
+}
+.navbar {
+    margin-left: 40px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 125%;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100%;
+}
+
+p {
+    margin-left: 10%;
+    display: flex;
+    width: 50%;
+}
+
+.wrap-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#cat {
+    width: 500px;
+    margin: 2px;
+    border: solid  rgba(255, 166, 0, 0.51) 5px;
+    position: relative;
+    left: 20%;
+}
+
+#horiseon {
+    width: 350px;
+    height: 250px;
+    margin: 2px;
+    border: solid  rgba(255, 166, 0, 0.51) 5px;
+    position: relative;
+    left: 10%
+}
+
+#train {
+    width: 1100px;
+    height: 250px;
+    margin: 2px; 
+}
