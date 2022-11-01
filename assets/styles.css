@@ -1,5 +1,7 @@
 
 body {
+    background-color: rgba(43, 95, 116, 0.898);
+    font-family: Andale Mono, monospace;
     font-weight: 100;
 }
 
@@ -10,7 +12,11 @@ body {
 }
 
 header { 
-    font-weight: lighter;
+    background-image: url("pexels-gabriela-palai-507410.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
 }
 
 h1 {
@@ -19,6 +25,7 @@ h1 {
 }
 
 h2 {
+    border-right: solid black 5px;
     text-align: end;
     width: 25%;
     margin: 5px;
@@ -42,6 +49,15 @@ li {
 .navbar {
     margin-left: 40px;
 }
+ 
+header a {
+    border-radius: 15%;
+    border: solid black  3px;
+    background-color: rgba(135, 207, 235, 0.6);
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+ }
 
 header li {
     display: inline-block;
@@ -51,6 +67,7 @@ header li {
 }
 
 section {
+    background-color:rgba(3, 77, 106, 0.923);
     display: flex;
     flex-wrap: wrap;
     font-size: 100%;
@@ -71,22 +88,41 @@ p {
 #cat {
     width: 500px;
     margin: 2px;
-    border: solid  rgba(255, 166, 0, 0.51) 5px;
+    border: solid  rgba(255, 166, 0, 0.51) 10px;
     position: relative;
     left: 20%;
+}
+
+#cat-title {
+    position: relative;
+    bottom: 15%;
+    left: 21%;
+    width: 50%;
+    background-color:rgba(255, 166, 0, 0.51);
+    padding: 5%;
+    font-size: 150%;
 }
 
 #horiseon {
     width: 350px;
     height: 250px;
     margin: 2px;
-    border: solid  rgba(255, 166, 0, 0.51) 5px;
+    border: solid  rgba(255, 166, 0, 0.51) 10px;
     position: relative;
     left: 10%
 }
 
-#train {
-    width: 1100px;
-    height: 250px;
-    margin: 2px; 
+#horiseon-title {
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    width: 45%;
+    background-color:rgba(255, 166, 0, 0.51);
+    padding: 3%;
+    font-size: 100%;
+}
+
+#profile {
+    width: 150px;
+    border-radius: 15%;
 }
