@@ -98,9 +98,11 @@ p {
     margin: 0;
  }
 .cat {
+    position: relative;
     max-width: 60%;
  }
 .horiseon {
+    position: relative;
     max-width: 45%;
     max-height: 15%;
     margin: 0;
@@ -116,9 +118,9 @@ p {
 
 #cat-title {
     position: absolute;
-   left: 45%;
+   left: 0;
+   padding: 5%;
    bottom: 10%;
-    width: 25%;
     background-color:rgba(255, 166, 0, 0.51);
     font-size: 150%;
 }
@@ -129,11 +131,14 @@ p {
     border: solid  rgba(255, 166, 0, 0.51) 10px;
 }
 
-/* #horiseon-title {
-    top: 0;
+#horiseon-title {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    padding: 2%;
     background-color:rgba(255, 166, 0, 0.51);
     font-size: 100%;
-} */
+}
 
 #profile {
     width: 150px;
